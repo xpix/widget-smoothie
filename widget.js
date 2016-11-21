@@ -355,7 +355,7 @@ cpdefine("inline:com-chilipeppr-widget-Smoothie", ["chilipeppr_ready", /* other 
         },
         getControllerInfo: function(){
             var json = {
-                D: "$G\n",
+                D: "get status\n",
                 Id: "status"
             };
             if(!this.alarm) //only send if we're not in an alarm state.
